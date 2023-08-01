@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    /* max-width: 1440px; */
+    background-color: black;
+    display: flex;
+    height: 55px;
+    padding: 0px 32px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+
+nav{
+    display: flex;
+    padding: 0px 4px;
+    justify-content: center;
+    font-family: "Roboto",arial,sans-serif
+}
+
+ul{
+    padding-left: 10px;
+
+    background-color: black;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav li a{
+    display: flex;
+    align-items: center;
+    font-size: 13.5px;
+    font-weight: 550;
+    color: white;
+    text-decoration: none;
+    padding: 0px 8px;
+}
+
+
+#pass{
+    margin-left: 20.406px;
+    display: flex;
+    background-color: #FBCD44;
+    color: #000;
+    border-radius: 4px;
+    height: 2rem;
+}
+
+#sign_in{
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+body{
+    background-color: #f6f6f6;
+}
+
+#adbox{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#mainframe{
+    display: flex;
+    justify-content: space-around;
+    padding: 28px 0px;
+    
+    font-family: "Roboto",arial,sans-serif;
+}
+
+#nbaapp{
+    box-sizing: border-box;
+    border: 0 solid;
+    background-color: white;
+    width: 350px;
+    height: 472px;
+}
+
+#heading{
+    display: flex;
+    align-items: baseline;
+    /* padding-bottom: 0.75rem; */
+    /* margin-bottom: 0.75rem; */
+    border-bottom-width: 7px;
+    border-color: #ebe9e7;
+    padding:15px;
+}
+
+#heading hr1{
+    padding-right: 150px;
+    text-transform: uppercase;
+    font-family: Knockout Wide,sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#heading a{
+    font-size:12px;
+}
+
+#nbaapppromo{
+    display: flex;
+    justify-content: center;
+}
